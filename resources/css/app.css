@@ -3,3 +3,5 @@
 @import "tailwindcss/utilities";
 
 @import "menu.scss";
+@import "fonts.scss";
+@import "general.scss";

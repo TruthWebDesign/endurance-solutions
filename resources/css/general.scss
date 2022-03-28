@@ -1,0 +1,10 @@
+.is-homepage{
+  &:hover svg path{
+      @apply fill-light-brown-gray ;
+    }
+  svg{
+    path{
+      fill: #773f38;
+    }
+  }
+}

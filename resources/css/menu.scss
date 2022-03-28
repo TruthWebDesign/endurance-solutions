@@ -1,0 +1,31 @@
+.menu-header {
+  .menu-menu-1-container{
+    .menu{
+      @apply flex gap-3 xslg:gap-11 ;
+      a{
+        @apply font-roboto-slab-medium text-sm text-light-black uppercase ;
+        &:hover{
+          @apply text-light-brown-gray ;
+        }
+      }
+    }
+  }
+  @media screen and (max-width:1023px){
+    .menu-menu-1-container{
+      @apply hidden ;
+    }
+  }
+}
+.footer-container{
+  .menu-footer-menu-container{
+    .menu{
+      @apply flex flex-col gap-4 sm:gap-8 py-15px sm:py-45px sm:pl-15px ;
+      a{
+        @apply font-roboto-slab-medium text-sm text-brown-primary uppercase ;
+        &:hover{
+          @apply text-light-brown-gray ;
+        }
+      }
+    }
+  }
+}
