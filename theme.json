@@ -1,0 +1,102 @@
+{
+  "version": 1,
+  "settings": {
+    "layout": {
+      "contentSize": "1024px",
+      "wideSize": "1280px"
+    },
+    "color": {
+      "palette": [
+        {
+          "name": "Primary",
+          "slug": "primary",
+          "color": "#0EA5E9"
+        },
+        {
+          "name": "Secondary",
+          "slug": "secondary",
+          "color": "#14B8A6"
+        },
+        {
+          "name": "Dark",
+          "slug": "dark",
+          "color": "#2F2F2F"
+        },
+        {
+          "name": "YellowLight",
+          "slug": "yellowlight",
+          "color": "#EEBF05"
+        },
+        {
+          "name": "Light",
+          "slug": "light",
+          "color": "#F9FAFB"
+        },
+        {
+          "name": "Pinklight",
+          "slug": "pinklight",
+          "color": "#F3908A"
+        },
+        {
+          "name": "GrayLight",
+          "slug": "grayLight",
+          "color": "#7C7C7C"
+        },
+        {
+          "name": "LightCyan",
+          "slug": "lightcyan",
+          "color": "#49DDCF"
+        }
+      ]
+    },
+    "typography": {
+      "fontSizes": [
+        {
+          "slug": "tn",
+          "name": "Tiny",
+          "size": "14px"
+        },
+        {
+          "slug": "sm",
+          "name": "Small",
+          "size": "16px"
+        },
+        {
+          "slug": "rg",
+          "name": "Regular",
+          "size": "18px"
+        },
+        {
+          "slug": "md",
+          "name": "Medium",
+          "size": "20px"
+        },
+        {
+          "slug": "lg",
+          "name": "Large",
+          "size": "24px"
+        },
+        {
+          "slug": "xl",
+          "name": "XL",
+          "size": "30px"
+        },
+        {
+          "slug": "sxl",
+          "name": "SXL",
+          "size": "36px"
+        },
+        {
+          "slug": "xxl",
+          "name": "2XL",
+          "size": "48px"
+        },
+        {
+          "slug": "xxxl",
+          "name": "3XL",
+          "size": "64px"
+        }
+      ]
+    }
+  }
+}
