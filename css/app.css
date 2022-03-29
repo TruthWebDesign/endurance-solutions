@@ -629,6 +629,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   min-width: 200px;
 }
 
+.min-w-120px {
+  min-width: 120px;
+}
+
 .max-w-sm {
   max-width: 24rem;
 }
@@ -832,11 +836,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 10px;
 }
 
-.px-52px {
-  padding-left: 52px;
-  padding-right: 52px;
-}
-
 .pt-47px {
   padding-top: 47px;
 }
@@ -855,22 +854,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .pb-15px {
   padding-bottom: 15px;
-}
-
-.pl-59px {
-  padding-left: 59px;
-}
-
-.pr-59px {
-  padding-right: 59px;
-}
-
-.pl-52px {
-  padding-left: 52px;
-}
-
-.pr-52px {
-  padding-right: 52px;
 }
 
 .text-center {
@@ -1619,6 +1602,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .sm\:w-auto {
     width: auto;
+  }
+
+  .sm\:min-w-200px {
+    min-width: 200px;
   }
 
   .sm\:max-w-302px {
