@@ -1,0 +1,27 @@
+# Replace THEME_NAME with your project theme name
+# For Kinsta use cd ~/public/wp-content/themes/THEME_NAME
+# For cPanel use cd ~/public_html/wp-content/themes/THEME_NAME
+#
+name: Deploy on server
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  job_deploy:
+    name: Deploy on server
+    runs-on: ubuntu-latest
+    steps:
+    - name: Deploy on server
+      uses: appleboy/ssh-action@master
+      with:
+        host: ${{ secrets.HOST }}
+        username: ${{ secrets.USERNAME }}
+        password: ${{ secrets.PASSWORD }}
+        port: ${{ secrets.PORT }}
+        script: |
+          cd ~/public/wp-content/themes/endurance-solutions
+          eval $(ssh-agent -s)
+          ssh-add ~/.ssh/id_rsa
+          git pull origin master
+          exit
