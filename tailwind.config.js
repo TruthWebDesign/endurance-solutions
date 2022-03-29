@@ -37,6 +37,8 @@ module.exports = {
             'roboto-slab-light': 'RobotoSlab Light',
             'roboto-slab-medium': 'RobotoSlab Medium',
             'roboto-slab-regular': 'RobotoSlab Regular',
+            'roboto-slab-bold': 'RobotoSlab Bold',
+            'lobster-regular': 'Lobster Regular',
         },
         extend: {
             colors: tailpress.colorMapper(tailpress.theme('settings.color.palette', theme)),
@@ -52,9 +54,14 @@ module.exports = {
             '16inch': '1536px',
             'xl': tailpress.theme('settings.layout.wideSize', theme)
         },
+        backgroundPosition: {
+            '20%': '20%',
+        },
         extend: {
             spacing:{
+                '4px': '4px',
                 '10px': '10px',
+                '13px': '13px',
                 '14px': '14px',
                 '15px': '15px',
                 '20px': '20px',
@@ -70,7 +77,9 @@ module.exports = {
                 '14px': '14px',
                 '15px': '15px',
                 '25px': '25px',
+                '30px': '30px',
                 '60px': '60px',
+                '70px': '70px',
             },
             maxWidth: {
                 '100px': '100px',
@@ -79,6 +88,9 @@ module.exports = {
                 '700px': '700px',
                 '845px': '845px',
                 '1270px': '1270px',
+                '1570px': '1570px',
+                '1500px': '1500px',
+                '100%': '100%',
             },
             colors:{
                 'light-brown': '#FFF9F5',
@@ -93,10 +105,21 @@ module.exports = {
                 '40px': '40px',
             },
             gap:{
+                '18px':'18px',
                 '30px':'30px'
             },
+            width:{
+                '20px': '20px',
+            },
             height:{
-                '263px': '263px',   
+                '263px': '263px',
+                '300px': '300px',
+                '440px': '440px',
+                '530px': '530px',   
+                '770px': '770px',
+            },
+            flexBasis: {
+                '83.5%': '83.5%',
             }
         },
     },

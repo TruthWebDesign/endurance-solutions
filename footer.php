@@ -5,40 +5,9 @@
 	<?php do_action( 'tailpress_content_after' ); ?>
 
 	<footer class="px-15px">
-		footer<br>
-		footer<br>
-		footer<br>
-		footer<br>
-		footer<br>
-		footer<br>
-		footer<br>
-		footer<br>
-		footer<br>
-		footer<br>
-		footer<br>
-		footer<br>
-		footer<br>
-		footer<br>
-		footer<br>
-		footer<br>
-		footer<br>
-		footer<br>
-		footer<br>
-		footer<br>
-		footer<br>
-		footer<br>
-		footer<br>
-		footer<br>
-		footer<br>
-		footer<br>
-		footer<br>
-		footer<br>
-		footer<br>
-		footer<br>
-		footer<br>
-		footer<br>
+
 		<div class="flex flex-col sm:flex-row justify-between max-w-1270px m-auto footer-container pt-47px sm:gap-11 items-start xslg:items-center">
-			<div class="left w-full sm:max-w-302px">
+			<div class="left w-full max-w-full sm:max-w-302px ">
 				<img class="m-auto" src="<?php the_field('logo_footer','option')?>"/>
 				<?php
 					wp_nav_menu(
