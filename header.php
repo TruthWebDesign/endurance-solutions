@@ -3,9 +3,7 @@
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width">
-	<?php if(str_contains(get_permalink(), 'https')):?>
-		<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
-	<?php endif;?>
+	
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
