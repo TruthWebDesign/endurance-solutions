@@ -367,6 +367,11 @@
   padding-right: 59px
 }
 
+.px-52px {
+  padding-left: 52px;
+  padding-right: 52px
+}
+
 .pt-47px {
   padding-top: 47px
 }
@@ -711,16 +716,6 @@
     padding-bottom: 40px
   }
 
-  .sm\:px-59px {
-    padding-left: 59px;
-    padding-right: 59px
-  }
-
-  .sm\:px-52px {
-    padding-left: 52px;
-    padding-right: 52px
-  }
-
   .sm\:pt-40px {
     padding-top: 40px
   }
@@ -852,16 +847,6 @@
   .xslg\:px-66px {
     padding-left: 66px;
     padding-right: 66px
-  }
-
-  .xslg\:px-59px {
-    padding-left: 59px;
-    padding-right: 59px
-  }
-
-  .xslg\:px-52px {
-    padding-left: 52px;
-    padding-right: 52px
   }
 
   .xslg\:text-2\/2xl {

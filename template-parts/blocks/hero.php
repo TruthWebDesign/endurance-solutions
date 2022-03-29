@@ -3,8 +3,8 @@
     <h1 class=" text-xl sm:text-1xl lg:text-2xl xslg:text-2/2xl font-lobster-regular text-navy-blue"><?php the_field('title_hero');?></h1>
     <h2 class=" text-md sm:text-lg lg:text-xl xslg:text-1xl font-roboto-slab-light text-light-black"><?php the_field('subtitle_hero');?></h2>
     <div class="flex mt-30px gap-3">
-      <a class="bg-brown-primary hover:bg-light-brown-gray duration-300  flex items-center text-white font-roboto-slab-medium  uppercase px-15px sm:px-59px py-4px sm:py-13px rounded-40px text-tn sm:text-sm " href="<?php the_field('button_first_link_hero')?>"><?php the_field('button_first_text_hero')?></a>
-      <a class=" text-navy-blue font-roboto-slab-medium border-2 hover:text-light-brown-gray  hover:border-light-brown-gray duration-300  border-navy-blue uppercase px-15px sm:px-52px py-4px sm:py-13px rounded-40px text-tn sm:text-sm " href="<?php the_field('button_second_link')?>"><?php the_field('button_second_text_hero')?></a>
+      <a class="bg-brown-primary hover:bg-light-brown-gray duration-300  flex items-center text-white font-roboto-slab-medium  uppercase px-59px py-4px sm:py-13px rounded-40px text-tn sm:text-sm " href="<?php the_field('button_first_link_hero')?>"><?php the_field('button_first_text_hero')?></a>
+      <a class=" text-navy-blue font-roboto-slab-medium border-2 hover:text-light-brown-gray  hover:border-light-brown-gray duration-300  border-navy-blue uppercase px-52px py-4px sm:py-13px rounded-40px text-tn sm:text-sm " href="<?php the_field('button_second_link')?>"><?php the_field('button_second_text_hero')?></a>
     </div>
   </div>
 </section>
