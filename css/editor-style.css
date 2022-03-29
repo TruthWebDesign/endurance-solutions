@@ -291,14 +291,14 @@
   background-color: rgb(255 249 245 / var(--tw-bg-opacity))
 }
 
-.bg-brown-primary {
-  --tw-bg-opacity: 1;
-  background-color: rgb(119 63 56 / var(--tw-bg-opacity))
-}
-
 .bg-light-brown-gray {
   --tw-bg-opacity: 1;
   background-color: rgb(180 137 108 / var(--tw-bg-opacity))
+}
+
+.bg-brown-primary {
+  --tw-bg-opacity: 1;
+  background-color: rgb(119 63 56 / var(--tw-bg-opacity))
 }
 
 .bg-cover {
