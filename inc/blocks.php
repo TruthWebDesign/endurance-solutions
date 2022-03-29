@@ -16,7 +16,7 @@
 
     acf_register_block(array(
       'name'				=> 'content-w-image',
-      'title'				=> __('Content with Image '),
+      'title'				=> __('Content with Image'),
       'description'		=> __('A custom Content with Image block.'),
       'render_callback'	=> 'my_acf_block_render_callback',
       'category'			=> 'formatting',
@@ -25,6 +25,16 @@
       'mode'        => 'edit',
     ));
     
+    acf_register_block(array(
+      'name'				=> 'book-tour',
+      'title'				=> __('Book a Tour'),
+      'description'		=> __('A custom Book a Tour block.'),
+      'render_callback'	=> 'my_acf_block_render_callback',
+      'category'			=> 'formatting',
+      'icon'				=> 'image-filter',
+      'keywords'			=> array( 'book-tour' ),
+      'mode'        => 'edit',
+    ));
   }
 
   function my_acf_block_render_callback( $block ) {

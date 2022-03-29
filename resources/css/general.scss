@@ -61,5 +61,12 @@
   }
 }
 .wpforms-submit.button-form{
-  @apply bg-light-brown-gray text-white rounded-40px border-0 px-78px py-15px text-sm !important;
+  @apply bg-light-brown-gray text-white rounded-40px border-0 px-78px py-15px text-sm duration-300 !important;
+  &:hover{
+    @apply bg-brown-primary  !important;
+  }
+}
+
+.overflow-body{
+  overflow: hidden;
 }

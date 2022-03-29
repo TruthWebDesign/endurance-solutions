@@ -29,3 +29,17 @@
     }
   }
 }
+.container-menu {
+  background-color:rgba(0, 0, 0, 0.7);
+  .menu-menu-1-container{
+    .menu{
+      @apply pt-60px pl-20px ;
+      li{
+        @apply mb-10px ;
+      }
+      a{
+        @apply font-roboto-slab-medium text-sm text-white uppercase ;
+      }
+    }
+  }
+}

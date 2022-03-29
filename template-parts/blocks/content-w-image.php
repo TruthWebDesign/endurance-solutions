@@ -12,6 +12,6 @@
       <?php endwhile;?>
     </ul> 
   <?php endif;?>
-  <a class="bg-brown-primary    text-white font-roboto-slab-medium  uppercase px-30px xslg:px-66px py-10px sm:py-13px rounded-40px text-tn sm:text-sm inline-block" href="<?php the_field('button_link_content_image')?>"><?php the_field('button_text_content_image')?></a>
+  <a class="bg-brown-primary hover:bg-light-brown-gray duration-300 text-white font-roboto-slab-medium uppercase px-30px xslg:px-66px py-4px sm:py-13px rounded-40px text-tn sm:text-sm inline-block" href="<?php the_field('button_link_content_image')?>"><?php the_field('button_text_content_image')?></a>
   </div>
 </section>
