@@ -1796,6 +1796,11 @@ Ensure the default browser behavior of the `hidden` attribute.
     padding-right: 52px;
   }
 
+  .xslg\:px-59px {
+    padding-left: 59px;
+    padding-right: 59px;
+  }
+
   .xslg\:text-2\/2xl {
     font-size: 64px;
     line-height: 54px;
