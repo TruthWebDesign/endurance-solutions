@@ -46,6 +46,11 @@
           "name": "LightCyan",
           "slug": "lightcyan",
           "color": "#49DDCF"
+        },
+        {
+          "name": "NavyBlue",
+          "slug": "navyblue",
+          "color": "#47526C"
         }
       ]
     },

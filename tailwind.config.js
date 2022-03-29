@@ -67,10 +67,15 @@ module.exports = {
                 '20px': '20px',
                 '25px': '25px',
                 '30px': '30px',
+                '34px': '34px',
                 '40px': '40px',
                 '45px': '45px',
                 '47px': '47px',
+                '50px': '50px',
                 '60px': '60px',
+                '66px': '66px',
+                '88px': '88px',
+                '104px': '104px',
                 
             },
             margin:{
@@ -85,11 +90,13 @@ module.exports = {
                 '100px': '100px',
                 '302px': '302px',
                 '410px': '410px',
+                '542px': '542px',
                 '700px': '700px',
                 '845px': '845px',
                 '1270px': '1270px',
                 '1570px': '1570px',
                 '1500px': '1500px',
+                '1864px': '1864px',
                 '100%': '100%',
             },
             colors:{
@@ -100,11 +107,13 @@ module.exports = {
                 'navy-blue': '#47526C',
                 'navy-blue-gray': '#6F7885',
                 'brown-primary': '#773F38',
+                'gray-navy': '#4E4E4E',
             },
             borderRadius:{
                 '40px': '40px',
             },
             gap:{
+                '14px':'14px',
                 '18px':'18px',
                 '30px':'30px'
             },
@@ -119,6 +128,8 @@ module.exports = {
                 '770px': '770px',
             },
             flexBasis: {
+                '13px': '13px',
+                '24px': '24px',
                 '83.5%': '83.5%',
             }
         },

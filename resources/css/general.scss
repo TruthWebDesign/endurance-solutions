@@ -8,3 +8,20 @@
     }
   }
 }
+
+.contact-group{
+  h2{
+    @apply font-lobster-regular ;
+  }
+  p {
+    @apply font-roboto-slab-regular ;
+  }
+  .wp-block-columns{
+    .left{
+      @apply py-60px ;
+    }
+    .wp-block-column{
+      @apply ml-0 !important;
+    }
+  }
+}

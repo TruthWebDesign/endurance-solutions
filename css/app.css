@@ -537,10 +537,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 30px;
 }
 
-.-mt-70px {
-  margin-top: -70px;
-}
-
 .block {
   display: block;
 }
@@ -605,12 +601,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   max-width: 100px;
 }
 
+.max-w-1864px {
+  max-width: 1864px;
+}
+
 .max-w-1500px {
   max-width: 1500px;
 }
 
-.flex-row {
-  flex-direction: row;
+.basis-13px {
+  flex-basis: 13px;
 }
 
 .flex-col {
@@ -649,8 +649,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   gap: 0.75rem;
 }
 
-.gap-18px {
-  gap: 18px;
+.gap-14px {
+  gap: 14px;
+}
+
+.gap-2 {
+  gap: 0.5rem;
 }
 
 .gap-0 {
@@ -745,14 +749,19 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 10px;
 }
 
+.py-30px {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.px-30px {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
 .py-4px {
   padding-top: 4px;
   padding-bottom: 4px;
-}
-
-.py-40px {
-  padding-top: 40px;
-  padding-bottom: 40px;
 }
 
 .pt-47px {
@@ -765,6 +774,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .pr-40px {
   padding-right: 40px;
+}
+
+.pb-14px {
+  padding-bottom: 14px;
+}
+
+.pb-15px {
+  padding-bottom: 15px;
 }
 
 .text-center {
@@ -804,6 +821,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-tn {
   font-size: 14px;
   line-height: 24px;
+}
+
+.text-lg {
+  font-size: 24px;
+  line-height: 34px;
 }
 
 .text-xl {
@@ -860,6 +882,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-gray-700 {
   --tw-text-opacity: 1;
   color: rgb(55 65 81 / var(--tw-text-opacity));
+}
+
+.text-gray-navy {
+  --tw-text-opacity: 1;
+  color: rgb(78 78 78 / var(--tw-text-opacity));
 }
 
 .text-light-black {
@@ -1098,6 +1125,23 @@ Ensure the default browser behavior of the `hidden` attribute.
       fill: #773f38;
     }
 
+.contact-group h2 {
+    font-family: Lobster Regular;
+  }
+
+.contact-group p {
+    font-family: RobotoSlab Regular;
+  }
+
+.contact-group .wp-block-columns .left {
+      padding-top: 60px;
+      padding-bottom: 60px;
+    }
+
+.contact-group .wp-block-columns .wp-block-column {
+      margin-left: 0px !important;
+    }
+
 @media (min-width: 640px) {
   .sm\:mt-60px {
     margin-top: 60px;
@@ -1127,16 +1171,20 @@ Ensure the default browser behavior of the `hidden` attribute.
     max-width: 100%;
   }
 
+  .sm\:basis-24px {
+    flex-basis: 24px;
+  }
+
   .sm\:flex-row {
     flex-direction: row;
   }
 
-  .sm\:flex-col {
-    flex-direction: column;
-  }
-
   .sm\:gap-11 {
     gap: 2.75rem;
+  }
+
+  .sm\:gap-7 {
+    gap: 1.75rem;
   }
 
   .sm\:gap-18px {
@@ -1153,6 +1201,11 @@ Ensure the default browser behavior of the `hidden` attribute.
     padding-bottom: 13px;
   }
 
+  .sm\:py-60px {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
   .sm\:py-40px {
     padding-top: 40px;
     padding-bottom: 40px;
@@ -1166,9 +1219,18 @@ Ensure the default browser behavior of the `hidden` attribute.
     padding-top: 0px;
   }
 
+  .sm\:pb-25px {
+    padding-bottom: 25px;
+  }
+
   .sm\:text-sm {
     font-size: 16px;
     line-height: 21px;
+  }
+
+  .sm\:text-xls {
+    font-size: 36px;
+    line-height: 46px;
   }
 
   .sm\:text-1xl {
@@ -1212,6 +1274,11 @@ Ensure the default browser behavior of the `hidden` attribute.
     line-height: 34px;
   }
 
+  .lg\:text-1xl {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
   .lg\:text-2xl {
     font-size: 48px;
     line-height: 58px;
@@ -1226,6 +1293,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 @media (min-width: 1200px) {
   .xslg\:max-w-410px {
     max-width: 410px;
+  }
+
+  .xslg\:max-w-542px {
+    max-width: 542px;
   }
 
   .xslg\:flex-row {
@@ -1252,6 +1323,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   .xslg\:px-45px {
     padding-left: 45px;
     padding-right: 45px;
+  }
+
+  .xslg\:px-50px {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .xslg\:px-66px {
+    padding-left: 66px;
+    padding-right: 66px;
   }
 
   .xslg\:text-2\/2xl {
@@ -1284,13 +1365,25 @@ Ensure the default browser behavior of the `hidden` attribute.
     align-items: flex-start;
   }
 
-  .xlg\:items-center {
-    align-items: center;
-  }
-
   .xlg\:px-0 {
     padding-left: 0px;
     padding-right: 0px;
+  }
+}
+
+@media (min-width: 1540px) {
+  .\32xlg\:pb-34px {
+    padding-bottom: 34px;
+  }
+
+  .\32xlg\:text-2xl {
+    font-size: 48px;
+    line-height: 58px;
+  }
+
+  .\32xlg\:text-md {
+    font-size: 20px;
+    line-height: 30px;
   }
 }
 

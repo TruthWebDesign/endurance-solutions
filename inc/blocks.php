@@ -13,6 +13,18 @@
       'keywords'			=> array( 'hero' ),
       'mode'        => 'edit',
     ));
+
+    acf_register_block(array(
+      'name'				=> 'content-w-image',
+      'title'				=> __('Content with Image '),
+      'description'		=> __('A custom Content with Image block.'),
+      'render_callback'	=> 'my_acf_block_render_callback',
+      'category'			=> 'formatting',
+      'icon'				=> 'image-filter',
+      'keywords'			=> array( 'content-w-image' ),
+      'mode'        => 'edit',
+    ));
+    
   }
 
   function my_acf_block_render_callback( $block ) {

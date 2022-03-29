@@ -13,7 +13,7 @@
 
 <?php do_action( 'tailpress_site_before' ); ?>
 
-<div id="page" class="">
+
 <?php do_action( 'tailpress_header' ); ?>
 	<header class="px-15px">
 		<div class="header max-w-1270px m-auto flex py-20px items-center justify-between">
@@ -34,5 +34,4 @@
 		
 	</header>
 
-	<div id="content" class="">
 		<main>
