@@ -802,19 +802,19 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-right: 15px;
 }
 
-.py-60px {
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
-
 .py-20px {
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
-.py-10px {
-  padding-top: 10px;
-  padding-bottom: 10px;
+.py-60px {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.py-4px {
+  padding-top: 4px;
+  padding-bottom: 4px;
 }
 
 .py-30px {
@@ -827,9 +827,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-right: 30px;
 }
 
-.py-4px {
-  padding-top: 4px;
-  padding-bottom: 4px;
+.py-10px {
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .pt-47px {
@@ -1628,6 +1628,11 @@ Ensure the default browser behavior of the `hidden` attribute.
     gap: 18px;
   }
 
+  .sm\:py-0 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
   .sm\:px-25px {
     padding-left: 25px;
     padding-right: 25px;
@@ -1653,17 +1658,8 @@ Ensure the default browser behavior of the `hidden` attribute.
     padding-bottom: 40px;
   }
 
-  .sm\:py-0 {
-    padding-top: 0px;
-    padding-bottom: 0px;
-  }
-
   .sm\:pt-40px {
     padding-top: 40px;
-  }
-
-  .sm\:pt-0 {
-    padding-top: 0px;
   }
 
   .sm\:pb-25px {
