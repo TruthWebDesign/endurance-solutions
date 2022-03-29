@@ -291,14 +291,14 @@
   background-color: rgb(255 249 245 / var(--tw-bg-opacity))
 }
 
-.bg-light-brown-gray {
-  --tw-bg-opacity: 1;
-  background-color: rgb(180 137 108 / var(--tw-bg-opacity))
-}
-
 .bg-brown-primary {
   --tw-bg-opacity: 1;
   background-color: rgb(119 63 56 / var(--tw-bg-opacity))
+}
+
+.bg-light-brown-gray {
+  --tw-bg-opacity: 1;
+  background-color: rgb(180 137 108 / var(--tw-bg-opacity))
 }
 
 .bg-cover {
@@ -837,6 +837,16 @@
   .xslg\:px-66px {
     padding-left: 66px;
     padding-right: 66px
+  }
+
+  .xslg\:px-59px {
+    padding-left: 59px;
+    padding-right: 59px
+  }
+
+  .xslg\:px-52px {
+    padding-left: 52px;
+    padding-right: 52px
   }
 
   .xslg\:text-2\/2xl {
