@@ -10,18 +10,56 @@
 }
 
 .contact-group{
+  
   h2{
-    @apply font-lobster-regular ;
+    @apply font-lobster-regular pb-10px ;
   }
   p {
-    @apply font-roboto-slab-regular ;
+    @apply font-roboto-slab-regular pb-34px ;
   }
   .wp-block-columns{
+    @apply  mb-0 flex-col lg:flex-row ;
     .left{
-      @apply py-60px ;
+      @apply p-15px sm:p-40px xslg:py-50px xslg:pl-88px xslg:pr-104px ;
     }
     .wp-block-column{
       @apply ml-0 !important;
+      .wp-block-image{
+        @apply m-0 !important ;
+      }
     }
   }
+  .wpforms-container.contact-form{
+    @apply font-roboto-medium  ;
+    .wpforms-field{
+      @apply p-0 pb-15px ;
+      .wpforms-field-label{
+        @apply uppercase text-white font-medium !important;
+      }
+    }
+    .wpforms-error{
+      @apply text-red-500 ;
+    }
+    .wpforms-required-label{
+      @apply hidden ;
+    }
+    input[type=text],input[type=tel],input[type=email]{
+      @apply h-40px sm:h-50px pl-20px ;
+      &::placeholder{
+        color: #BBBBBB;
+      @apply font-normal !important;
+      }
+    }
+    textarea{
+      @apply h-105px pl-20px pt-20px resize-none !important ;
+    }
+  }
+  .image-resize{
+    img,figure{
+      @apply h-full object-cover object-left w-full ;
+    }
+  }
+}
+.wpforms-submit.button-form{
+  @apply bg-light-brown-gray text-white rounded-40px border-0 px-78px py-15px text-sm !important;
 }

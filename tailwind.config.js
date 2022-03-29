@@ -38,6 +38,8 @@ module.exports = {
             'roboto-slab-medium': 'RobotoSlab Medium',
             'roboto-slab-regular': 'RobotoSlab Regular',
             'roboto-slab-bold': 'RobotoSlab Bold',
+            'roboto-regular': 'Roboto Regular',
+            'roboto-medium': 'Roboto Medium',
             'lobster-regular': 'Lobster Regular',
         },
         extend: {
@@ -74,6 +76,7 @@ module.exports = {
                 '50px': '50px',
                 '60px': '60px',
                 '66px': '66px',
+                '78px': '78px',
                 '88px': '88px',
                 '104px': '104px',
                 
@@ -99,6 +102,9 @@ module.exports = {
                 '1864px': '1864px',
                 '100%': '100%',
             },
+            maxHeight: {
+                '700px': '700px',
+            },
             colors:{
                 'light-brown': '#FFF9F5',
                 'light-brown-gray': '#B4896C',
@@ -121,6 +127,9 @@ module.exports = {
                 '20px': '20px',
             },
             height:{
+                '40px': '40px',
+                '50px': '50px',
+                '105px': '105px',
                 '263px': '263px',
                 '300px': '300px',
                 '440px': '440px',

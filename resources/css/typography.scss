@@ -1,0 +1,31 @@
+.has-xxxl-font-size {
+  @apply  text-2xl lg:text-3xl !important;
+}
+
+.has-xxl-font-size {
+  @apply text-xl lg:text-2xl !important;
+}
+
+.has-xl-font-size {
+  @apply text-lg lg:text-xl !important;
+}
+
+.has-lg-font-size {
+  @apply text-md lg:text-lg !important;
+}
+
+.has-md-font-size {
+  @apply text-rg lg:text-md !important;
+}
+
+.has-rg-font-size {
+  @apply  md:text-sm lg:text-rg !important;
+}
+
+.has-sm-font-size {
+  @apply text-tn lg:text-sm transition !important;
+
+  &:hover {
+    @apply bg-red-900;
+  }
+}
