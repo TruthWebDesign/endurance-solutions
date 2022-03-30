@@ -10,26 +10,17 @@
 </section>
 <section class="flex px-15px">
   <div class="flex justify-around w-full px-15px xlg:px-0 max-w-1500px m-auto bg-light-brown-gray sm:-mt-70px py-10px sm:py-40px">
-    <div class="flex gap-0 sm:gap-18px flex-col sm:flex-row items-center">
+  
+  <?php if( have_rows('repeater_feature_hero') ):?>
+     <?php while( have_rows('repeater_feature_hero') ) : the_row();?>
+     <div class="flex gap-0 sm:gap-18px flex-col sm:flex-row items-center">
       <?php echo do_shortcode( '[icon name="star"]' )?>
       <div class="flex flex-col items-center xlg:items-start">
-        <h5 class="font-roboto-slab-bold text-white text-ms xslg:text-lg">FEATURE</h5>
-        <p class="font-roboto-slab-regular text-white text-sm xslg:text-rg text-center">Curabitur tristique a risus ut sollicitudin.</p>
+        <h5 class="font-roboto-slab-bold text-white text-ms xslg:text-lg"><?php the_sub_field('title')?></h5>
+        <p class="font-roboto-slab-regular text-white text-sm xslg:text-rg text-center"><?php the_sub_field('subtitle')?></p>
       </div>
     </div>
-    <div class="flex gap-0 sm:gap-18px flex-col sm:flex-row items-center">
-      <?php echo do_shortcode( '[icon name="star"]' )?>
-      <div class="flex flex-col items-center xlg:items-start">
-        <h5 class="font-roboto-slab-bold text-white text-ms xslg:text-lg">FEATURE</h5>
-        <p class="font-roboto-slab-regular text-white text-sm xslg:text-rg text-center">Curabitur tristique a risus ut sollicitudin.</p>
-      </div>
-    </div>
-    <div class="flex gap-0 sm:gap-18px flex-col sm:flex-row items-center">
-      <?php echo do_shortcode( '[icon name="star"]' )?>
-      <div class="flex flex-col items-center xlg:items-start">
-        <h5 class="font-roboto-slab-bold text-white text-ms xslg:text-lg">FEATURE</h5>
-        <p class="font-roboto-slab-regular text-white text-sm xslg:text-rg text-center">Curabitur tristique a risus ut sollicitudin.</p>
-      </div>
-    </div>
+      <?php endwhile;?>
+  <?php endif;?>
   </div>
 </section>
