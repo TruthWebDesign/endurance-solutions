@@ -70,3 +70,91 @@
 .overflow-body{
   overflow: hidden;
 }
+
+.hero-mini{
+  @media screen and (min-width:1440px) {
+    background-position-y: -100px;
+  }
+  .home-svg{
+    width: 16px;
+    height: 16px;
+  }
+}
+.group-faq{
+  @apply pt-40px lg:pt-93px px-15px pb-30px lg:pb-64px;
+  .wp-block-columns{
+    @apply gap-y-6 sm:gap-y-0 gap-x-6 items-start !important;
+    &:first-child{
+      @apply sm:mb-52px !important;
+    }
+    .wp-block-column{
+      @apply m-0  px-15px lg:px-39px py-15px lg:py-47px !important;
+    }
+  }
+}
+.contact-us-form{
+  @apply max-w-845px py-40px lg:py-78px px-15px lg:px-0 m-auto;
+  h2{
+    @apply pb-9px ;
+  }
+  hr{
+    @apply mt-34px mb-45px ;
+  }
+  .wpforms-field-label{
+    @apply font-roboto-medium uppercase text-navy-blue pb-9px !important;
+  }
+  input, textarea{
+    @apply border-cream-col !important ;
+    &::placeholder{
+      @apply font-roboto-regular !important ;
+    }
+  }
+  input{
+    @apply h-50px !important ;
+  }
+  textarea {
+    @apply h-105px resize-none !important;
+  }
+  .wpforms-required-label{
+    @apply hidden ;
+  }
+}
+.category-list {
+  .active{
+    color: #AA7552;
+    @media screen and (min-width:640px){
+    ::before{
+      display: inline-block;
+      position: absolute;
+      content: "";
+      border-bottom: 2px solid #B4896C;
+      width: 100%;
+      transform: translateY(-1rem);
+      bottom: -45px;
+      left: 0;
+    }
+    }
+  }
+  li{
+    @apply duration-300 ;
+    @media screen and (min-width:640px){
+      &:hover{
+        color: #d89a71;
+        ::before{
+          display: inline-block;
+          position: absolute;
+          content: "";
+          border-bottom: 2px solid #d89a71;
+          width: 100%;
+          
+          transform: translateY(-1rem);
+          bottom: -45px;
+          left: 0;
+        }
+      }
+    }
+  }
+}
+hr.line{
+    border: 1px solid #f0f0f0
+}

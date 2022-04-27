@@ -35,6 +35,40 @@
       'keywords'			=> array( 'book-tour' ),
       'mode'        => 'edit',
     ));
+
+    acf_register_block(array(
+      'name'				=> 'serv-amenities',
+      'title'				=> __('Service and amenities'),
+      'description'		=> __('A custom Service and amenities block.'),
+      'render_callback'	=> 'my_acf_block_render_callback',
+      'category'			=> 'formatting',
+      'icon'				=> 'image-filter',
+      'keywords'			=> array( 'serv-amenities' ),
+      'mode'        => 'edit',
+    ));
+    
+    acf_register_block(array(
+      'name'				=> 'block-map',
+      'title'				=> __('Map Block'),
+      'description'		=> __('A custom Map Block block.'),
+      'render_callback'	=> 'my_acf_block_render_callback',
+      'category'			=> 'formatting',
+      'icon'				=> 'image-filter',
+      'keywords'			=> array( 'block-map' ),
+      'mode'        => 'edit',
+    ));
+        
+    acf_register_block(array(
+      'name'				=> 'gallery-block',
+      'title'				=> __('Gallery Block'),
+      'description'		=> __('A custom Gallery Block block.'),
+      'render_callback'	=> 'my_acf_block_render_callback',
+      'category'			=> 'formatting',
+      'icon'				=> 'image-filter',
+      'keywords'			=> array( 'gallery-block' ),
+      'mode'        => 'edit',
+    ));
+
   }
 
   function my_acf_block_render_callback( $block ) {

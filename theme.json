@@ -43,6 +43,12 @@
           "color": "#7C7C7C"
         },
         {
+          "name": "GrayLight2",
+          "slug": "grayLight2",
+          "color": "#FAF3EE"
+        },
+        
+        {
           "name": "LightCyan",
           "slug": "lightcyan",
           "color": "#49DDCF"

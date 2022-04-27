@@ -139,11 +139,14 @@ require_once( 'inc/shortcodes.php' );
 // /** Custom Blocks **/
 require_once( 'inc/blocks.php' );
 
-  //GOOGLE MAP
-  function my_acf_init() {
-    acf_update_setting('google_api_key', 'AIzaSyC9gnKgTW4RLZy4zK5YrnlifzT3ggskVBE');
-  }
-  add_action('acf/init', 'my_acf_init');
+// Breadcrumbs 
+require_once('inc/breadcrumbs.php');
+
+//GOOGLE MAP
+function my_acf_init() {
+	acf_update_setting('google_api_key', 'AIzaSyC9gnKgTW4RLZy4zK5YrnlifzT3ggskVBE');
+}
+add_action('acf/init', 'my_acf_init');
 
 
 //Google Map

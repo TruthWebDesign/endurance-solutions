@@ -6,3 +6,10 @@ alignright
 wp-block-button
 wp-caption
 wp-caption-text
+font-roboto-slab-regular
+max-w-1270px
+px-15px
+max-w-1300px
+font-lobster-regular
+mb-14px
+max-w-845px
