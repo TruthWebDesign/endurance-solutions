@@ -934,16 +934,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-top: 30px;
 }
 
-.pl-40px {
-  padding-left: 40px;
+.pl-60px {
+  padding-left: 60px;
 }
 
 .pr-15px {
   padding-right: 15px;
-}
-
-.pl-60px {
-  padding-left: 60px;
 }
 
 .text-center {
