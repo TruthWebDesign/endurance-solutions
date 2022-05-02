@@ -24,8 +24,4 @@
 
 .has-sm-font-size {
   @apply text-tn lg:text-sm transition !important;
-
-  &:hover {
-    @apply bg-red-900;
-  }
 }

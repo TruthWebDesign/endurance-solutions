@@ -934,6 +934,18 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-top: 30px;
 }
 
+.pl-40px {
+  padding-left: 40px;
+}
+
+.pr-15px {
+  padding-right: 15px;
+}
+
+.pl-60px {
+  padding-left: 60px;
+}
+
 .text-center {
   text-align: center;
 }
@@ -1857,11 +1869,6 @@ hr.line{
     line-height: 21px !important;
   }
 }
-
-.has-sm-font-size:hover {
-    --tw-bg-opacity: 1;
-    background-color: rgb(127 29 29 / var(--tw-bg-opacity));
-  }
 
 .hover\:border-light-brown-gray:hover {
   --tw-border-opacity: 1;

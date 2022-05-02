@@ -26,7 +26,7 @@
     </div>
   </section>
   <?php else:?>
-<section class="hero-mini h-200px lg:h-400px bg-cover bg-no-repeat flex px-15px" style=" background-color: #F5F5F5; background-image: url('<?php the_field('image_background_hero')?>');">
+<section class="hero-mini h-200px lg:h-400px bg-cover bg-no-repeat flex pl-60px pr-15px" style=" background-color: #F5F5F5; background-image: url('<?php the_field('image_background_hero')?>');">
     <div class="max-w-1270px m-auto w-full">
       <h1 class="text-xl sm:text-1xl lg:text-2xl xslg:text-2/2xl font-lobster-regular text-navy-blue mb-20px"><?php single_post_title()?></h1>
       <div class="flex items-center  font-roboto-medium uppercase gap-3.5"><?php echo do_shortcode( '[icon name="home"]' )?><?php the_breadcrumb(); ?></div>

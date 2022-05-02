@@ -464,6 +464,18 @@
   padding-top: 30px
 }
 
+.pl-40px {
+  padding-left: 40px
+}
+
+.pr-15px {
+  padding-right: 15px
+}
+
+.pl-60px {
+  padding-left: 60px
+}
+
 .text-center {
   text-align: center
 }
