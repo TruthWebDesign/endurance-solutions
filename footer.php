@@ -30,7 +30,7 @@
 							<h5 class="text-sm text-navy-blue-gray font-roboto-slab-medium">Address</h5>
 							<a class="text-sm text-navy-blue-gray hover:text-navy-blue duration-300 font-roboto-slab-medium mb-15px sm:mb-25px inline-block" target="_blank" href="<?php the_field('address_link__footer','option')?>" ><?php the_field('address_text_footer','option')?></a>
 							<h5 class="text-sm text-navy-blue-gray font-roboto-slab-medium mb-14px">Call: <a href="tel:<?php the_field('phone_footer','option')?>"><?php the_field('phone_footer','option')?></a></h5>
-							<h5 class="text-sm text-navy-blue-gray font-roboto-slab-medium  mb-15px sm:mb-25px">Fax: <?php the_field('fax_footer','option')?></h5>
+							<!-- <h5 class="text-sm text-navy-blue-gray font-roboto-slab-medium  mb-15px sm:mb-25px">Fax: <?php the_field('fax_footer','option')?></h5> -->
 							<h5 class="text-sm text-navy-blue-gray  font-roboto-slab-medium">Email: <a href="mailto:<?php the_field('email_footer','option')?>" class="underline hover:text-navy-blue duration-300" ><?php the_field('email_footer','option')?></a></h5>
 						</div>
 				</div>
