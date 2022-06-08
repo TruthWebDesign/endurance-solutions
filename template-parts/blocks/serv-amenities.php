@@ -8,7 +8,9 @@
           <img class=" mb-15px sm:mb-25px" src="<?php the_sub_field('image');?>"/>
           <h2 class="mb-16px uppercase font-roboto-medium text-navy-blue text-lg text-center"><?php the_sub_field('title')?></h2>
           <p class="font-roboto-regular text-navy-blue-gray text-rg text-center mb-15px sm:mb-28px"><?php the_sub_field('paragraph');?></p>
-          <a href="<?php the_sub_field('link')?>" class="uppercase underline text-sm text-navy-blue font-roboto-medium">Find out more</a>
+          <?php if(!empty(the_sub_field('link'))) { ?>
+              <a href="<?php the_sub_field('link')?>" class="uppercase underline text-sm text-navy-blue font-roboto-medium">Find out more</a>
+          <?php } ?>
         </div>
       <?php endwhile;?>
     </div>
