@@ -46,19 +46,49 @@
     }
   });
 
-  #vvc
+
   /* veni vidi codi */
+  function scrollto(el, callback) {
+    // var el = $(elem);
+    let i = $(el.attr('data-scrollto'));
 
-  jQuery('.scroll-to').click(function (e) {
-    var to = $(this).attr('href');
-    if ($(to).length) {
-      e.preventDefault();
-      jQuery('body,html').animate({
-        scrollTop: $(to).offset().top
-      }, 800);
 
+    console.log(i);
+
+    $("html, body").stop().animate({
+      scrollTop: i.attr('data-offsettop')
+    }, 900, "swing", function () {
+
+      if (typeof callback == "function") {
+        // callback(el);
+      }
+    })
+  }
+
+  ; jQuery(document).ready(function ($) {
+    $('a[href^="#"] , .scroll-to-child > a').click(function (event) {
+      event.preventDefault();
+
+      console.log('clicked');
+      let t = $(this), to = t.attr('href'), th = to.split('#'), target = (th.length > 1 ? '#' + th[1] : t.attr('href'));
+      $("html, body").stop().animate({
+        scrollTop: ($(target).offset().top - 300)
+      }, 500)
+      // console.log(t);
+      // console.log(to);
+      // console.log(th);
+      // console.log(target);
+      // if ($(to).length) {
+      //   if ($(to).attr('data-offsettop') == undefined) {
+      //     $(to).attr('data-offsettop', $(target).offset().top - 300);
+
+      //   }
+      //   t.attr('data-scrollto', target);
+      //   scrollto(t);
+      // }
       return false;
-    } // endif 
+    });
+
   });
 
 

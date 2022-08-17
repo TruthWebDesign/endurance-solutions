@@ -2258,7 +2258,3 @@ hr.line {
     height: 770px;
   }
 }
-
-html {
-  scroll-behavior: smooth;
-}
