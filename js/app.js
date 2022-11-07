@@ -67,13 +67,16 @@
 
   ; jQuery(document).ready(function ($) {
     $('a[href^="#"] , .scroll-to-child > a').click(function (event) {
-      event.preventDefault();
 
-      console.log('clicked');
       let t = $(this), to = t.attr('href'), th = to.split('#'), target = (th.length > 1 ? '#' + th[1] : t.attr('href'));
-      $("html, body").stop().animate({
-        scrollTop: ($(target).offset().top - 300)
-      }, 500)
+      if ($(target).length) {
+        event.preventDefault();
+        console.log('clicked');
+        $("html, body").stop().animate({
+          scrollTop: ($(target).offset().top - 300)
+        }, 500)
+        return false;
+      }
       // console.log(t);
       // console.log(to);
       // console.log(th);
@@ -86,7 +89,7 @@
       //   t.attr('data-scrollto', target);
       //   scrollto(t);
       // }
-      return false;
+      // return false;
     });
 
   });
