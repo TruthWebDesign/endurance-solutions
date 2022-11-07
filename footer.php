@@ -34,6 +34,7 @@
 							<h5 class="text-sm text-navy-blue-gray  font-roboto-slab-medium">Email: <a href="mailto:<?php the_field('email_footer','option')?>" class="underline hover:text-navy-blue duration-300" ><?php the_field('email_footer','option')?></a></h5>
 						</div>
 				</div>
+                <a href="https://www.acornfinance.com/apply?d=ZUA5G&utm_medium=web_banner" target="_blank" rel="noopener noreferrer"><img id="acornBanner" style="margin: 10px; padding: 1px; border: 1px solid black; border-radius: 5px;" src="https://fs.acornfinance.com/banners/acorn-finance-banner-easy-payment-options-horizontal-medium.png" alt="Acorn Finance apply and get affordable payment options from multiple lenders" longdesc="false"></a>
 			</div>
 		</div>
 		<div class="flex justify-between max-w-1270px m-auto items-center py-20px sm:py-0 gap-4 sm:gap-11 flex-col sm:flex-row">
