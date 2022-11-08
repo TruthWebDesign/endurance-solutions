@@ -16,7 +16,7 @@
 				?>
 			</div>
 			<div class="right max-w-845px w-full pt-20px sm:pt-40px">
-				<h3 class=" text-sm lg:text-lg font-roboto-slab-regular text-navy-blue max-w-700px"><?php the_field('paragraph_footer','option')?></h3>
+				<h3 class=" text-sm lg:text-lg font-roboto-slab-regular text-navy-blue max-w-700px text-center"><?php the_field('paragraph_footer','option')?></h3>
 				<div class="xslg:border-y-2 border-lbg-opac flex justify-between xslg:items-center mt-25px sm:mt-60px flex-col xslg:flex-row gap-4 xslg:gap-0">
 						<div class="map-container w-full xslg:max-w-410px">
 							<?php $location = get_field('map','option');
@@ -34,7 +34,7 @@
 							<h5 class="text-sm text-navy-blue-gray  font-roboto-slab-medium">Email: <a href="mailto:<?php the_field('email_footer','option')?>" class="underline hover:text-navy-blue duration-300" ><?php the_field('email_footer','option')?></a></h5>
 						</div>
 				</div>
-                <a href="https://www.acornfinance.com/apply?d=ZUA5G&utm_medium=web_banner" target="_blank" rel="noopener noreferrer"><img id="acornBanner" style="margin: 10px; padding: 1px; border: 1px solid black; border-radius: 5px;" src="https://fs.acornfinance.com/banners/acorn-finance-banner-easy-payment-options-horizontal-medium.png" alt="Acorn Finance apply and get affordable payment options from multiple lenders" longdesc="false"></a>
+                <a href="https://www.acornfinance.com/apply?d=ZUA5G&utm_medium=web_banner" target="_blank" rel="noopener noreferrer"><img id="acornBanner" style="margin: 10px audo; padding: 1px; border: 1px solid black; border-radius: 5px;" src="https://fs.acornfinance.com/banners/acorn-finance-banner-easy-payment-options-horizontal-medium.png" alt="Acorn Finance apply and get affordable payment options from multiple lenders" longdesc="false"></a>
 			</div>
 		</div>
 		<div class="flex justify-between max-w-1270px m-auto items-center py-20px sm:py-0 gap-4 sm:gap-11 flex-col sm:flex-row">

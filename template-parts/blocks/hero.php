@@ -7,7 +7,7 @@
         <a class="bg-brown-primary hover:bg-light-brown-gray duration-300  flex justify-center items-center text-white font-roboto-slab-medium  uppercase min-w-120px sm:min-w-200px   py-4px sm:py-13px rounded-40px text-tn sm:text-sm " href="<?php the_field('button_first_link_hero')?>"><?php the_field('button_first_text_hero')?></a>
         <a class=" text-navy-blue font-roboto-slab-medium border-2 flex justify-center hover:text-light-brown-gray  hover:border-light-brown-gray duration-300  border-navy-blue uppercase min-w-120px sm:min-w-200px py-4px sm:py-13px rounded-40px text-tn sm:text-sm " href="<?php the_field('button_second_link')?>"><?php the_field('button_second_text_hero')?></a><?php 
         if (!empty(get_field('button_third_link'))) { 
-          ?></div><div class="flex mt-30px gap-3"><a class=" text-navy-blue font-roboto-slab-medium border-2 flex justify-center hover:text-light-brown-gray  hover:border-light-brown-gray duration-300  border-navy-blue uppercase min-w-120px sm:min-w-200px py-4px sm:py-13px rounded-40px text-tn sm:text-sm " href="<?php the_field('button_third_link')?>"><?php the_field('button_third_text')?></a><?php
+          ?></div><div class="flex mt-30px gap-3 justify-center"><a class=" text-navy-blue font-roboto-slab-medium border-2 flex justify-center hover:text-light-brown-gray  hover:border-light-brown-gray duration-300  border-navy-blue uppercase min-w-120px sm:min-w-200px py-4px sm:py-13px rounded-40px text-tn sm:text-sm " href="<?php the_field('button_third_link')?>"><?php the_field('button_third_text')?></a><?php
         } // end if
         ?>
       </div>
