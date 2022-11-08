@@ -16,7 +16,7 @@
 				?>
 			</div>
 			<div class="right max-w-845px w-full pt-20px sm:pt-40px">
-				<h3 class=" text-sm lg:text-lg font-roboto-slab-regular text-navy-blue max-w-700px text-center"><?php the_field('paragraph_footer','option')?></h3>
+				<h3 class=" text-sm lg:text-lg font-roboto-slab-regular text-navy-blue max-w-700px--REMOVED text-center"><?php the_field('paragraph_footer','option')?></h3>
 				<div class="xslg:border-y-2 border-lbg-opac flex justify-between xslg:items-center mt-25px sm:mt-60px flex-col xslg:flex-row gap-4 xslg:gap-0">
 						<div class="map-container w-full xslg:max-w-410px">
 							<?php $location = get_field('map','option');
