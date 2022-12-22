@@ -1786,6 +1786,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   transition-duration: 300ms;
 }
 
+@media screen and (max-width:640px) {
+  .category-list li {
+    margin: 0 20px 10px;
+  }
+}
+
 @media screen and (min-width:640px) {
   .category-list li:hover {
     color: #d89a71;

@@ -122,7 +122,7 @@
 .category-list {
   .active{
     color: #AA7552;
-    @media screen and (min-width:640px){
+    @media screen and (min-width:640px){3
     ::before{
       display: inline-block;
       position: absolute;
@@ -137,6 +137,9 @@
   }
   li{
     @apply duration-300 ;
+    @media screen and (max-width:640px){
+      margin: 0 20px 10px; 
+    }
     @media screen and (min-width:640px){
       &:hover{
         color: #d89a71;
